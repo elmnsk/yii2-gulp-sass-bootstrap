@@ -22,6 +22,8 @@ $config = [
  ```php
 public function init() {
     Yii::$app->assetManager->bundles = false;
+    
+    parent::init();
 }
    ```
    
