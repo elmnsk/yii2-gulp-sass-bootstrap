@@ -1,44 +1,22 @@
-
-/*  FONT AWESOME v4.6.3
- **********************************************/
-@import "libs/awesome/awesome";
-
-/*  FANCYBOX v2.1.5
- **********************************************/
- /* @import "libs/fancybox/fancybox"; */
-
-/*  OWL SLIDER 2.0.0
- **********************************************/
-@import "libs/owl/owl";
-
-/* BOOTSTRAP v3.3.6 
- **********************************************/
-@import "libs/bootstrap/mixins";
-@import "libs/bootstrap/bootstrap";
-
-/*  MY CUSTOM STYLES @theandersonn \o/
- **********************************************/ 
-
 /* BASE */
-/* @import 'base/fonts'; */
 @import "base/fonts";
 @import "base/reset";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 @import "base/typography";
 
 /* COMPONENTS */
 @import "components/buttons";
 @import "components/forms";
 @import "components/navigation";
-@import "components/wordpress";
 
 /* HELPERS */
-@import "helpers/functions";
 @import "helpers/variables";
 @import "helpers/mixins";
 
 /* LAYOUT */
 @import "layout/header";
 @import "layout/footer";
+@import "layout/grid";
 
 /* PAGES */
 @import "pages/general";
